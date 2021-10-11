@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nicotanzil.github.io/static/css/main.a617e044.chunk.css",
-    "main.js": "/nicotanzil.github.io/static/js/main.5b6b12b6.chunk.js",
-    "main.js.map": "/nicotanzil.github.io/static/js/main.5b6b12b6.chunk.js.map",
+    "main.js": "/nicotanzil.github.io/static/js/main.bbf357f4.chunk.js",
+    "main.js.map": "/nicotanzil.github.io/static/js/main.bbf357f4.chunk.js.map",
     "runtime-main.js": "/nicotanzil.github.io/static/js/runtime-main.e236c3c6.js",
     "runtime-main.js.map": "/nicotanzil.github.io/static/js/runtime-main.e236c3c6.js.map",
     "static/js/2.6e338e4b.chunk.js": "/nicotanzil.github.io/static/js/2.6e338e4b.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e236c3c6.js",
     "static/js/2.6e338e4b.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.5b6b12b6.chunk.js"
+    "static/js/main.bbf357f4.chunk.js"
   ]
 }
