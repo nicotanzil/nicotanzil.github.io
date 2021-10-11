@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/nicotanzil.github.io/static/css/main.a617e044.chunk.css",
-    "main.js": "/nicotanzil.github.io/static/js/main.32cd3d91.chunk.js",
-    "main.js.map": "/nicotanzil.github.io/static/js/main.32cd3d91.chunk.js.map",
+    "main.js": "/nicotanzil.github.io/static/js/main.9454c608.chunk.js",
+    "main.js.map": "/nicotanzil.github.io/static/js/main.9454c608.chunk.js.map",
     "runtime-main.js": "/nicotanzil.github.io/static/js/runtime-main.e236c3c6.js",
     "runtime-main.js.map": "/nicotanzil.github.io/static/js/runtime-main.e236c3c6.js.map",
-    "static/js/2.da09ce2e.chunk.js": "/nicotanzil.github.io/static/js/2.da09ce2e.chunk.js",
-    "static/js/2.da09ce2e.chunk.js.map": "/nicotanzil.github.io/static/js/2.da09ce2e.chunk.js.map",
+    "static/js/2.bb6a2d84.chunk.js": "/nicotanzil.github.io/static/js/2.bb6a2d84.chunk.js",
+    "static/js/2.bb6a2d84.chunk.js.map": "/nicotanzil.github.io/static/js/2.bb6a2d84.chunk.js.map",
     "static/js/3.ee9b1e0c.chunk.js": "/nicotanzil.github.io/static/js/3.ee9b1e0c.chunk.js",
     "static/js/3.ee9b1e0c.chunk.js.map": "/nicotanzil.github.io/static/js/3.ee9b1e0c.chunk.js.map",
     "index.html": "/nicotanzil.github.io/index.html",
     "static/css/main.a617e044.chunk.css.map": "/nicotanzil.github.io/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.da09ce2e.chunk.js.LICENSE.txt": "/nicotanzil.github.io/static/js/2.da09ce2e.chunk.js.LICENSE.txt"
+    "static/js/2.bb6a2d84.chunk.js.LICENSE.txt": "/nicotanzil.github.io/static/js/2.bb6a2d84.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e236c3c6.js",
-    "static/js/2.da09ce2e.chunk.js",
+    "static/js/2.bb6a2d84.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.32cd3d91.chunk.js"
+    "static/js/main.9454c608.chunk.js"
   ]
 }
