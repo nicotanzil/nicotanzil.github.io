@@ -1,7 +1,6 @@
 // react component particle
 import { useContext } from "react";
 import Particles from "react-tsparticles";
-import { useState, useEffect } from "react/cjs/react.development";
 import ThemeContext from "../store/theme-context";
 
 import "../styles/BackgroundParticles.css";
@@ -23,7 +22,7 @@ const BackgroundParticles = (props) => {
 			options={{
 				particles: {
 					number: {
-						value: 160,
+						value: 100,
 						density: {
 							enable: true,
 							value_area: 800,

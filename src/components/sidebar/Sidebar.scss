@@ -1,0 +1,64 @@
+@import "../../styles/responsive.scss";
+@import "../../styles/color.scss";
+
+.side-bar {
+	width: 160px;
+	height: 100vh;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 20;
+}
+
+@media screen and (max-width: $mobile-max-width) {
+	.side-bar {
+		width: 50px;
+		display: none;
+	}
+
+	nav {
+		ul {
+			li {
+				a {
+					font-size: 1.2rem;
+				}
+			}
+		}
+	}
+}
+
+nav {
+	ul {
+		padding: 0;
+		li {
+			list-style: none;
+			a {
+				text-decoration: none;
+				color: $dark-gray;
+				display: block;
+				padding: 0.6rem 0.3rem;
+				font-weight: 400;
+				transition: all ease-out 250ms;
+				text-align: left;
+				&:hover {
+					font-weight: bold;
+					color: $dark-gray;
+				}
+			}
+
+			.dark {
+				color: $light-gray;
+				&:hover {
+					color: $light-gray;
+				}
+			}
+		}
+
+		.active {
+			font-weight: bold;
+			font-size: 1.4rem;
+		}
+	}
+}

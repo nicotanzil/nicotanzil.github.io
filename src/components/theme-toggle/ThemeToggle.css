@@ -1,0 +1,77 @@
+.theme-toggle {
+  position: fixed;
+  z-index: 100;
+  bottom: 5%;
+  left: 2.5%;
+}
+
+.theme-toggle .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.theme-toggle .label {
+  width: 40px;
+  height: 20px;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 50px;
+  padding: 5px;
+  position: relative;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.theme-toggle .label .ball {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+.theme-toggle .label .fa-moon {
+  color: pink;
+  position: absolute;
+  top: 4px;
+  left: 2.5px;
+  width: 15px;
+  height: 15px;
+}
+
+.theme-toggle .label .fa-sun {
+  color: yellow;
+  position: absolute;
+  top: 4px;
+  right: 2.5px;
+  width: 15px;
+  height: 15px;
+}
+
+.theme-toggle .checkbox:checked + .label .ball {
+  -webkit-transform: translateX(19px);
+          transform: translateX(19px);
+}
+
+@media screen and (max-width: 767px) {
+  .theme-toggle {
+    left: 5%;
+    bottom: 3%;
+  }
+}
+/*# sourceMappingURL=ThemeToggle.css.map */

@@ -1,0 +1,67 @@
+.side-bar {
+  width: 160px;
+  height: 100vh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 20;
+}
+
+@media screen and (max-width: 767px) {
+  .side-bar {
+    width: 50px;
+    display: none;
+  }
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.6rem 0.3rem;
+  font-weight: 400;
+  -webkit-transition: all ease-out 250ms;
+  transition: all ease-out 250ms;
+  text-align: left;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul li .dark {
+  color: #ededed;
+}
+
+nav ul li .dark:hover {
+  color: #ededed;
+}
+
+nav ul .active {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=Sidebar.css.map */
