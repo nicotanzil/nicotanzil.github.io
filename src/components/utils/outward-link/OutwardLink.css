@@ -1,0 +1,29 @@
+.outward {
+  z-index: 20;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 700;
+  position: relative;
+}
+
+.outward:hover, .outward:focus, .outward:active {
+  color: inherit;
+  cursor: pointer;
+}
+
+.outward:hover:after, .outward:focus:after, .outward:active:after {
+  width: 100%;
+}
+
+.outward:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 1.5px;
+  background-color: var(--text-primary);
+  width: 0;
+  -webkit-transition: width 0.4s;
+  transition: width 0.4s;
+}
+/*# sourceMappingURL=OutwardLink.css.map */

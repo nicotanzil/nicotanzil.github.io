@@ -13,11 +13,11 @@ const ExperienceCard = (props) => {
 			<div className="content">
 				<span className="title">{props.title}</span>
 				{props.link === "" ? null : (
-					<a href={props.link} className="link">
+					<a href={props.link} className="link" target="_blank" rel="noopener noreferrer">
 						Check it out!
 					</a>
 				)}
-				<span className="description">{props.description}</span>
+				<span className="description">{props.children}</span>
 				<ul className="stack-list">
 					{props.stacks
 						? props.stacks.map((stack) => (

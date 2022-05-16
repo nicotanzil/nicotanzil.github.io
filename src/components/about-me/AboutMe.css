@@ -17,8 +17,10 @@
 }
 
 .about-me .description {
-  text-align: center;
+  text-align: left;
   width: 50%;
+  font-weight: 500;
+  z-index: 20;
 }
 
 .about-me .icons {

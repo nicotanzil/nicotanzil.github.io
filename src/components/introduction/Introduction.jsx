@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import ThemeContext from "../../store/theme-context";
+import OutwardLink from "../utils/outward-link/OutwardLink";
 import "./Introduction.css";
 
 const Introduction = (props) => {
@@ -16,13 +17,11 @@ const Introduction = (props) => {
 				/>
 			</div>
 			<div className="right-container">
-				<h1>Hi there!</h1>
+				<h1>Hi there! 👋</h1>
 				<p className="intro-text">
-					My name is Clementius N Tanzil. I'm a CS student at{" "}
-					<a href="https://binus.ac.id/" className="link">
-						Binus University
-					</a>
-					, Jakarta, Indonesia 🇮🇩. Looking forward to meeting you!
+					I'm Clementius N Tanzil, currently a Computer Science undergraduate student at{" "}
+					<OutwardLink link="https://binus.ac.id/">Binus&nbsp;University</OutwardLink> based in Jakarta, Indonesia 🇮🇩. <br />{" "}
+					Looking forward to meet you!
 				</p>
 			</div>
 		</section>

@@ -1,0 +1,30 @@
+@import "../../../styles/color.scss";
+
+.outward {
+	z-index: 20;
+	text-decoration: none;
+	color: var(--text-primary);
+	font-weight: 700;
+	position: relative;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: inherit;
+		cursor: pointer;
+		&:after {
+			width: 100%;
+		}
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -3px;
+		height: 1.5px;
+		background-color: var(--text-primary);
+		width: 0;
+		transition: width 0.4s;
+	}
+}
