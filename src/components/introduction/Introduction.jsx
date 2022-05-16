@@ -19,7 +19,7 @@ const Introduction = (props) => {
 			<div className="right-container">
 				<h1>Hi there! 👋</h1>
 				<p className="intro-text">
-					I'm Clementius N Tanzil, currently a Computer Science undergraduate student at{" "}
+					I'm <b>Clementius Nichklaus Tanzil</b>! I'm currently a Computer Science undergraduate student at{" "}
 					<OutwardLink link="https://binus.ac.id/">Binus&nbsp;University</OutwardLink> based in Jakarta, Indonesia 🇮🇩. <br />{" "}
 					Looking forward to meet you!
 				</p>

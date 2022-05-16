@@ -25,9 +25,9 @@ const Experience = (props) => {
 					image="assets/bv.png"
 					stacks={["Vue.js", "Laravel", "SCSS", "Bootstrap", "JQuery", "MySQL", "Stripe"]}
 				>
-					My first Freelance project (ever) to create a Full-Stack web application which can be used to manage the items sold
-					in the store as well as handling customer transactions using Stripe API. It can also handle multiple users and
-					roles including administrator and customer.
+					My first Freelance project to create a Full-Stack web application which can be used to manage the items sold in the
+					store as well as handling customer transactions using Stripe API. It can also handle multiple users and roles
+					including administrator and customer.
 				</ExperienceCard>
 				<ExperienceCard
 					title="SLC Web TPA - Staem"
@@ -43,7 +43,7 @@ const Experience = (props) => {
 					title="SLC Web Android - Konnect"
 					link="https://play.google.com/store/apps/details?id=edu.bluejack20_2.Konnect"
 					image="assets/konnect.webp"
-					stacks={["Android", "Kotlin", "Firebase", "OAuth2"]}
+					stacks={["Android", "Kotlin", "Firebase", "NoSQL", "OAuth2"]}
 				>
 					Android app that can be used to meet with new potential job seeker (inspired by Linkedin). This project is the
 					result of my collaboration with my fellow teaching assistant.
@@ -52,7 +52,7 @@ const Experience = (props) => {
 					title="Web Programming Lab Project - Tokem"
 					link="https://github.com/nicotanzil/tokem"
 					image="assets/tokem.png"
-					stacks={["Laravel", "MySQL"]}
+					stacks={["Laravel", "MySQL", "HTML", "CSS", "Bootstrap"]}
 				>
 					Laravel based web application that can be used to manage the items sold in the store as well as maintaining
 					multiple users and roles.
