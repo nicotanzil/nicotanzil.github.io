@@ -23,17 +23,23 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+::selection {
+	background-color: #ffdc00;
+}
+
 :root {
 	--background: white;
 	--text-primary: black;
-	--text-secondary: royalblue;
-	--accent: purple;
-	--selection: yellow;
+	--dark-gray: #333;
+	--palette-1: #007bff;
+	--palette-2: #60ab4f;
+	--stack-background: #ededed;
 }
 [data-theme="dark"] {
 	--background: black;
 	--text-primary: white;
 	--text-secondary: grey;
-	--accent: darkred;
-	--selection: lime;
+	--palette-1: #36f1c7;
+	--palette-2: #a7f845;
+	--stack-background: #333;
 }

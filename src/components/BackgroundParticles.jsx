@@ -22,7 +22,7 @@ const BackgroundParticles = (props) => {
 			options={{
 				particles: {
 					number: {
-						value: 100,
+						value: 25,
 						density: {
 							enable: true,
 							value_area: 800,

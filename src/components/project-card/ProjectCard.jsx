@@ -1,17 +1,14 @@
 import { useContext } from "react";
+import "./ProjectCard.css";
 import ThemeContext from "../../store/theme-context";
-import "./ExperienceCard.css";
 
-const ExperienceCard = (props) => {
+const ProjectCard = (props) => {
 	const ctx = useContext(ThemeContext);
 
 	return (
-		<div className="experience-card">
-			{/* <div className="image">
-				<img src={props.image} alt={props.title} />
-			</div> */}
+		<div className={`project-card ${ctx.theme === "dark" ? "card-dark" : ""}`}>
 			<div className="card-content">
-				<span className="card-title">{props.title}</span>
+				<div className="card-title">{props.title}</div>
 				<span className="timespan">{props.timespan}</span>
 				{props.link === "" ? null : (
 					<a href={props.link} className="link" target="_blank" rel="noopener noreferrer">
@@ -33,4 +30,4 @@ const ExperienceCard = (props) => {
 	);
 };
 
-export default ExperienceCard;
+export default ProjectCard;

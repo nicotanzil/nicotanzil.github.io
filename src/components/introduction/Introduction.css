@@ -93,8 +93,8 @@
             align-items: center;
   }
   .introduction .left-container .profile-image {
-    width: calc(15rem + 20vw);
-    height: calc(15rem + 20vw);
+    width: calc(7.5rem + 20vw);
+    height: calc(7.5rem + 20vw);
   }
   .introduction .right-container {
     width: 100%;

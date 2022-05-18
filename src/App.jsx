@@ -10,6 +10,7 @@ import AboutMe from "./components/about-me/AboutMe";
 import Experience from "./components/experience/Experience";
 import Sidebar from "./components/sidebar/Sidebar";
 import ThemeToggle from "./components/theme-toggle/ThemeToggle";
+import Project from "./components/projects/Project";
 
 function App() {
 	const ctx = useContext(ThemeContext);
@@ -24,6 +25,7 @@ function App() {
 				<Introduction />
 				<AboutMe />
 				<Experience />
+				<Project />
 			</div>
 			<ThemeToggle />
 			<BackgroundParticles className="background-particles" />
