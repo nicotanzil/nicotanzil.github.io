@@ -27,7 +27,6 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  z-index: inherit;
 }
 
 @media screen and (max-width: 767px) {

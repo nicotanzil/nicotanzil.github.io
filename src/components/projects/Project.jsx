@@ -23,14 +23,14 @@ const Project = (props) => {
 						link="https://staem-angular.netlify.app/"
 						image="assets/staem.png"
 						timespan="Jan 2021 - Feb 2021"
-						stacks={["AngularJS", "Go", "GraphQL", "GQLGen", "PostgreSQL", "SCSS", "RxJS", "Netlify"]}
+						stacks={["AngularJS", "Go", "GraphQL", "gqlgen", "PostgreSQL", "SCSS", "RxJS", "Netlify"]}
 					>
 						My very first 'big' web application project to create a Full-Stack web application imitating the Steam web
 						application. It can handle various activities related to Steam such as searching for games, adding games to cart,
 						buying games, etc.
 					</ProjectCard>
 					<ProjectCard
-						title="SLC Web Android - Konnect"
+						title="SLC Android TPA - Konnect"
 						link="https://play.google.com/store/apps/details?id=edu.bluejack20_2.Konnect"
 						image="assets/konnect.webp"
 						timespan="Mar 2021 - Apr 2021"

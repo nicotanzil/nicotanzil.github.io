@@ -11,6 +11,7 @@ import Experience from "./components/experience/Experience";
 import Sidebar from "./components/sidebar/Sidebar";
 import ThemeToggle from "./components/theme-toggle/ThemeToggle";
 import Project from "./components/projects/Project";
+import Skills from "./components/skills/Skills";
 
 function App() {
 	const ctx = useContext(ThemeContext);
@@ -25,6 +26,7 @@ function App() {
 				<Introduction />
 				<AboutMe />
 				<Experience />
+				<Skills />
 				<Project />
 			</div>
 			<ThemeToggle />

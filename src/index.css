@@ -15,7 +15,7 @@ body {
 	width: 100vw;
 	overflow-x: hidden;
 	font-family: "Lato", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-		"Droid Sans", "Helvetica Neue", sans-serif;
+		"Droid Sans", "Helvetica Neue", sans-serif !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -31,6 +31,7 @@ code {
 :root {
 	--background: white;
 	--text-primary: black;
+	--text-secondary: #d3d3d3;
 	--dark-gray: #333;
 	--palette-1: #007bff;
 	--palette-2: #60ab4f;
