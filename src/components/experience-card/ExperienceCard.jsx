@@ -12,6 +12,7 @@ const ExperienceCard = (props) => {
 			</div> */}
 			<div className="card-content">
 				<span className="card-title">{props.title}</span>
+				<span className="card-subtitle">{props.subtitle}</span>
 				<span className="timespan">{props.timespan}</span>
 				{props.link === "" ? null : (
 					<a href={props.link} className="link" target="_blank" rel="noopener noreferrer">

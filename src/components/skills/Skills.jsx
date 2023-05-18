@@ -3,7 +3,7 @@ import "./Skills.css";
 const Skills = (props) => {
 	return (
 		<section id="skills" className="section-container">
-			<div className="title">Skills</div>
+			<div className="title">Tech Stacks</div>
 			<div className="content-container">
 				<div className="skills-container">
 					<div className="skill-title">Language</div>

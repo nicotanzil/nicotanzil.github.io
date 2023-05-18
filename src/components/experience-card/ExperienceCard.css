@@ -41,6 +41,12 @@
   margin-bottom: 5px;
 }
 
+.experience-card .card-content .card-subtitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
 .experience-card .card-content .timespan {
   font-size: 1rem;
   color: var(--text-primary);

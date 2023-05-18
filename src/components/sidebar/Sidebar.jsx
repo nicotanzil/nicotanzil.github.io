@@ -48,7 +48,7 @@ const Sidebar = (props) => {
 							<AnchorCircle text="Experience" />
 						</a>
 						<a href="#skills" className={ctx.theme === "dark" ? "dark" : ""}>
-							<AnchorCircle text="Skills" />
+							<AnchorCircle text="Tech Stacks" />
 						</a>
 						<a href="#project" className={ctx.theme === "dark" ? "dark" : ""}>
 							<AnchorCircle text="Project" />

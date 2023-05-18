@@ -44,9 +44,16 @@
 			}
 		}
 		#familiar {
+			cursor: pointer;
 			color: var(--text-secondary);
 			.skill-title {
 				color: var(--text-secondary);
+			}
+			&:hover {
+				color: var(--text-primary);
+				.skill-title {
+					color: var(--palette-2);
+				}
 			}
 		}
 	}

@@ -23,19 +23,6 @@
 			text-align: left;
 			font-weight: 500;
 		}
-
-		.icons {
-			z-index: 50;
-			margin-top: 2.5%;
-			font-size: 2.4rem;
-			font-weight: 500;
-			.icon {
-				cursor: pointer;
-				color: var(--primary-text);
-				margin: 5px 10px;
-				z-index: 50;
-			}
-		}
 	}
 }
 

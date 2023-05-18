@@ -61,6 +61,20 @@
   font-size: 1.2rem;
 }
 
+.introduction .right-container .icons {
+  z-index: 50;
+  margin-top: 2.5%;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.introduction .right-container .icons .icon {
+  cursor: pointer;
+  color: var(--primary-text);
+  margin: 5px 10px;
+  z-index: 50;
+}
+
 @media screen and (max-width: 768px) {
   .introduction {
     width: 100%;

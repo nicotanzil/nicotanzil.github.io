@@ -61,11 +61,20 @@
 }
 
 #skills .content-container #familiar {
+  cursor: pointer;
   color: var(--text-secondary);
 }
 
 #skills .content-container #familiar .skill-title {
   color: var(--text-secondary);
+}
+
+#skills .content-container #familiar:hover {
+  color: var(--text-primary);
+}
+
+#skills .content-container #familiar:hover .skill-title {
+  color: var(--palette-2);
 }
 
 @media screen and (max-width: 767px) {

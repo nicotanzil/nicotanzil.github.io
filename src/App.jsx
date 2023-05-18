@@ -30,6 +30,7 @@ function App() {
 				<Project />
 			</div>
 			<ThemeToggle />
+
 			<BackgroundParticles className="background-particles" />
 		</div>
 	);
